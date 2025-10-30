@@ -9,6 +9,8 @@ namespace PracticaGYM_
     public class Alumno: Usuario
     {
         public Suscripcion suscripcion { get; set; }
+        public bool EstaActivo { get; set; }    
+        public List <Pagos> pagos { get; set; }
 
     }
 }

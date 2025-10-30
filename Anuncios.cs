@@ -13,5 +13,6 @@ namespace PracticaGYM_
         public string Titulo { get; set; }
         public string Descripcion { get; set; }
         public DateTime FechaPublicacion { get; set; }
+        public Profesor Profesor { get; set; }
     }
 }
