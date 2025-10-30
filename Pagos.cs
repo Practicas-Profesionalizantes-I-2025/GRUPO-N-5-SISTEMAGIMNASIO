@@ -12,8 +12,15 @@ namespace PracticaGYM_
         public int Id { get; set; }
         public decimal Monto { get; set; }
         public DateTime FechaPago { get; set; }
-        public string MetodoPago { get; set; }
+        public MetodoPago _MetodoPago { get; set; }
         public Suscripcion Suscripcion { get; set; }
         public Alumno Alumno { get; set; }
+        public enum MetodoPago
+        {
+            TarjetaCredito,
+            TarjetaDebito,
+            PayPal,
+            TransferenciaBancaria
+        }
     }
 }

@@ -9,6 +9,7 @@ namespace PracticaGYM_
     public class Alimentacion
     {
         public int Id { get; set; }
+        public string TipoAlimentacion { get; set; }    
         public string Descripcion { get; set; }
         public Profesor profesor { get; set; }
     }
